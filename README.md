@@ -37,21 +37,8 @@ Let's build our first gh aw to track what's going on in our repository on a week
 2. Submit this prompt:
 
    ```text
-   Create .github/workflows/weekly-report-status.md as an Agentic Workflow
-   Markdown file.
-
-   Requirements:
-   - Use the Copilot engine.
-   - Name the workflow Weekly Report Status.
-   - Run on schedule every Monday and on demand with workflow_dispatch.
-   - Grant contents: read, issues: read, pull-requests: read, and
-     copilot-requests: write permissions.
-   - Configure safe-outputs.create-issue with a title prefix of
-     "[weekly-report] " and a maximum of one issue.
-   - Generate a concise activity report for the previous seven days, covering
-     commits, issues, and pull requests. Publish the report in a new issue and
-     state clearly when no activity occurred.
-   - Do not compile the workflow.
+   
+   
    ```
 
 3. Review the generated Markdown, then validate, compile, commit, and run it:
