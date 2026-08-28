@@ -39,6 +39,8 @@ Let's build our first gh aw to track what's going on in our repository on a week
    ```text
    
    
+
+   
    ```
 
 3. Review the generated Markdown, then validate, compile, commit, and run it:
