@@ -53,6 +53,18 @@
               <span aria-hidden="true">&#8594;</span>
             </button>
           </li>
+          <li>
+            <button
+              class="daily-update-trigger"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="august-29-dialog"
+              data-dialog-trigger
+            >
+              <span>29th of August</span>
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </aside>
@@ -213,6 +225,31 @@
           Agentic workflows add an AI agent that interprets natural-language Markdown
           instructions and calls configured tools. YAML frontmatter still defines
           triggers, permissions, the AI engine, network access, and safe outputs.
+        </p>
+      </article>
+    </dialog>
+
+    <dialog
+      class="daily-update-dialog"
+      id="august-29-dialog"
+      aria-labelledby="august-29-question"
+      aria-describedby="august-29-answer"
+    >
+      <article class="daily-update-dialog-content">
+        <header class="daily-update-dialog-header">
+          <p>Daily Update / 29th of August</p>
+          <form method="dialog">
+            <button class="dialog-close" type="submit" aria-label="Close dialog" title="Close dialog">
+              <span aria-hidden="true">&#10005;</span>
+            </button>
+          </form>
+        </header>
+        <h2 id="august-29-question">Who pays for the use of AI?</h2>
+        <p id="august-29-answer">
+          Your organization does. Agentic workflows run using your own configured AI
+          engine credentials (for example, an Anthropic, OpenAI, or Copilot subscription
+          key), so AI usage is billed to whichever account or plan you connect &mdash;
+          separate from any GitHub Actions minutes the workflow consumes.
         </p>
       </article>
     </dialog>
