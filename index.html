@@ -53,6 +53,18 @@
               <span aria-hidden="true">&#8594;</span>
             </button>
           </li>
+          <li>
+            <button
+              class="daily-update-trigger"
+              type="button"
+              aria-haspopup="dialog"
+              aria-controls="september-8-dialog"
+              data-dialog-trigger
+            >
+              <span>8th of September</span>
+              <span aria-hidden="true">&#8594;</span>
+            </button>
+          </li>
         </ul>
       </nav>
     </aside>
@@ -213,6 +225,30 @@
           Agentic workflows add an AI agent that interprets natural-language Markdown
           instructions and calls configured tools. YAML frontmatter still defines
           triggers, permissions, the AI engine, network access, and safe outputs.
+        </p>
+      </article>
+    </dialog>
+
+    <dialog
+      class="daily-update-dialog"
+      id="september-8-dialog"
+      aria-labelledby="september-8-question"
+      aria-describedby="september-8-answer"
+    >
+      <article class="daily-update-dialog-content">
+        <header class="daily-update-dialog-header">
+          <p>Daily Update / 8th of September</p>
+          <form method="dialog">
+            <button class="dialog-close" type="submit" aria-label="Close dialog" title="Close dialog">
+              <span aria-hidden="true">&#10005;</span>
+            </button>
+          </form>
+        </header>
+        <h2 id="september-8-question">Did today&rsquo;s daily update workflow run successfully?</h2>
+        <p id="september-8-answer">
+          Yes &mdash; the daily update agentic workflow ran successfully on the 8th of
+          September, confirming the automation completed its scheduled run without
+          any issues.
         </p>
       </article>
     </dialog>
